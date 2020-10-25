@@ -4,7 +4,7 @@ html,body{
 }
 
 div.container{
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .btn-primary{
@@ -18,11 +18,12 @@ div.container{
 }
 .container{
     text-align: center;
-    padding-top: 20px !important;
+    padding-top: 15px !important;
 }
 h1{
     color: whitesmoke;
     padding: 15px;
+    font-size: 30px;
 }
 .carousel-caption{
     color: white;
@@ -33,7 +34,7 @@ h1{
 }
 @media only screen and (max-width: 1400px) {
     h1{
-        font-size: 60px !important;
+        font-size: 40px !important;
     }
     a{
         font-size: 20px !important;
@@ -42,9 +43,24 @@ h1{
 
 @media only screen and (max-width: 800px) {
     h1{
-        font-size: 32px !important;
+        font-size: 30px !important;
     }
     a{
         font-size: 20px !important;
     }
+}
+a.nav-link{
+    font-size: 20px !important;
+}
+a.navbar-brand{
+    font-size: 22px !important;
+}
+p.versionTXT{
+    color: white;
+}
+footer.page-footer{
+    background-color: #343a40;
+}
+.btn{
+    margin-bottom: 20px !important;
 }
