@@ -51,46 +51,21 @@ div.container{
     text-align: center;
     padding-top: 20px;
 }
-.carousel{
+
+.embed-responsive{
     width: 75%;
     margin: auto;
-    border: 3px solid #707070;
+    margin-bottom: 30px;
 }
-.carousel-caption{
-    color: #8BF9C7;
-}
-/*updates.html*/
-.changelog{
-    text-align: left;
-    padding-top: 15px;
-    background-color: #181C43;
-    margin: auto;
-}
-.changelog .text{
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
 /*Footer*/
 footer.page-footer{
     background-color: #181C43;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 /*Smaller-devices*/
-.middleAssign{
-    padding-top: 50px
-}
 
 @media only screen and (max-width: 800px) {
     h1{
         font-size: 25px;
-    }
-    div.text h3{
-        font-size: 20px;
-    }
-    div.text p{
-        font-size: 13px;
     }
 }

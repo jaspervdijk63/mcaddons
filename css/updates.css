@@ -74,8 +74,6 @@ div.container{
 /*Footer*/
 footer.page-footer{
     background-color: #181C43;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 /*Smaller-devices*/
@@ -86,11 +84,5 @@ footer.page-footer{
 @media only screen and (max-width: 800px) {
     h1{
         font-size: 25px;
-    }
-    div.text h3{
-        font-size: 20px;
-    }
-    div.text p{
-        font-size: 13px;
     }
 }
